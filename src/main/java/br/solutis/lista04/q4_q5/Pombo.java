@@ -10,7 +10,7 @@ public class Pombo extends AnimalVoadorAB{
     @Override
     public void comer(int quantidadeComida) {
         setQuantidadeComida(getQuantidadeComida() + quantidadeComida);
-        System.out.println("O pombo comeu.");;
+        System.out.println("O pombo comeu.");
     }
 
     @Override
